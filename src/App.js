@@ -239,7 +239,7 @@ export default function App() {
                 <input 
                   type="hidden"
                   name="addr"
-                  value="0x185ab144d40B6736ea111FDCbC8Ec53F7AEeE990"/>
+                  value="0x7b95Ab528C931780f4F49D0Ca077b06f5c1b9ea5"/>
                 <div className="boxg">
                   <p className="p3">The most improved Miner on FANTOM Ecosystem. 100% community-driven, improved sustainability.</p>
                   <br />
