@@ -1,38 +1,518 @@
-.App {
-  text-align: center;
+body{
+    background:linear-gradient(to right, #010846, #035a7c);
+    width: 100%;
+    min-width: 1800px;
+    max-width: 1900px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box1{
+    background:linear-gradient(to right, #035a7c, #010846);
+    width: 100%;
+    border: solid 4px #91f2f2b7;
+    border-radius: 25px;
+    padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box2{
+    background: url(https://maboxloisapin.fr/wp-content/uploads/2022/04/Jeton-fantome-FTM.jpg);
+    background-repeat: no-repeat;
+    background-position: 600px -140px;
+    width: 100%;
+    padding: 10px;
+    border: solid 4px #91f2f29d;
+    border-radius: 40px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.boxa{
+    display: inline-block;
+    padding: 10px;
+    border: solid 4px #91f2f29d;
+    border-radius: 35px;
+    width: 370px;
+    text-align: center;
+    position: absolute;
+    top: 85px;
+    margin-left: -13px;
+    background:linear-gradient(to right, #010846, #035a7c);
+
 }
 
-.App-link {
-  color: #61dafb;
+.ul1{
+    letter-spacing: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    animation: flash 3s linear infinite;
+}
+
+@keyframes flash {
+    0% {
+        color: #000000;
+        text-shadow: none;
+    }
+
+    90% {
+        color: white;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #91f2f2b7;
+        text-shadow:0 0 20px #91f2f2;
+    }
+}
+
+li:nth-child(1) {
+    animation-delay: 0.1s;
+}
+li:nth-child(2) {
+    animation-delay: 0.2s;
+}
+li:nth-child(3) {
+    animation-delay: 0.3s;
+}
+li:nth-child(4) {
+    animation-delay: 0.4s;
+}
+li:nth-child(5) {
+    animation-delay: 0.5s;
+}
+li:nth-child(6) {
+    animation-delay: 0.6s;
+}
+li:nth-child(7) {
+    animation-delay: 0.7s;
+}
+li:nth-child(8) {
+    animation-delay: 0.8s;
+}
+li:nth-child(9) {
+    animation-delay: 0.9s;
+}
+li:nth-child(10) {
+    animation-delay: 1s;
+}
+li:nth-child(11) {
+    animation-delay: 1.1s;
+}
+li:nth-child(12) {
+    animation-delay: 1.2s;
+}
+li:nth-child(13) {
+    animation-delay: 1.3s;
+}
+li:nth-child(14) {
+    animation-delay: 1.4s;
+}
+li:nth-child(15) {
+    animation-delay: 1.5s;
+}
+li:nth-child(16) {
+    animation-delay: 1.6s;
+}
+li:nth-child(17) {
+    animation-delay: 1.7s;
+}
+li:nth-child(18) {
+    animation-delay: 1.8s;
+}
+li:nth-child(19) {
+    animation-delay: 1.9s;
+}
+li:nth-child(20) {
+    animation-delay: 2s;
+}
+li:nth-child(21) {
+    animation-delay: 2.1s;
+}
+li:nth-child(22) {
+    animation-delay: 2.2s;
+}
+li:nth-child(23) {
+    animation-delay: 2.3s;
+}
+li:nth-child(24) {
+    animation-delay: 2.4s;
+}
+li:nth-child(25) {
+    animation-delay: 2.5s;
+}
+li:nth-child(26) {
+    animation-delay: 2.6s;
+}
+li:nth-child(27) {
+    animation-delay: 2.7s;
+}
+
+.boxb{
+    display: inline;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+
+}
+h1{
+    display: inline;
+    font-size: 60px;
+    background:linear-gradient(to right, #048ABF, #023373);
+    margin-left: 300px;
+    padding: 30px;
+    color: white;
+    text-shadow:0px 0px 10px white;
+    letter-spacing: 10px;
+    font-weight: 500;
+    border-radius: 25px;
+    border: solid 3px #91f2f29d;
+    
+    
+}
+
+.boxc{
+    display: inline-block;
+    margin-bottom: 10px;
+    border: solid 2px white;
+    border-radius: 25px;
+    margin-left: 1450px;
+    width: 160px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+.img1a{
+    margin-bottom: -23px;
+}
+.img1b{
+    margin-bottom: -23px;
+}
+.img1c{
+    margin-bottom: -23px;
+}
+.img1d{
+    margin-bottom: -23px;
+}
+.img1e{
+    margin-bottom: -23px;
+}
+
+.a1{
+    color: white;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.a1::after{
+    content: "";
+    display: block;
+    width: 0px;
+    margin: 5px 0 0 0;
+    height: 2px;
+    border-radius: 2px;
+    background: white;
+    transition: width 0.5s ease-out;
+}
+
+.a1:hover::after {
+    width: 80%;
+    
+}
+
+
+
+
+.box3{
+    margin-top: 50px;
+    border: solid 4px #91f2f29d;
+    border-radius: 10px;
+    background:linear-gradient(to right ,#035a7c , #010846);
+    position: relative;
+    
+}
+
+
+.boxd{
+    width: 100%auto;
+    padding-left: 20px;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+}
+
+.ul2{
+    
+}
+
+.li1{
+    font-size: 90px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.boxe{
+    display: inline-block;
+}
+
+.boxf{
+    position: absolute;
+    display: inline-block;
+    margin-left: 150px;
+    color: white;
+}
+
+.boxf1{
+    
+    display: inline-block;
+}
+.p1{
+    padding-left: 100px;
+    text-align: center;
+}
+
+.boxf2{
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.p2{
+    padding-left: 100px;
+}
+
+
+.boxf3{
+    padding-top: 10px;
+    position: absolute;
+    width: 300px;
+    left: 546px;
+    top: 0px;
+    
+}
+
+.btn1{
+    border: solid 2px #91f2f29d;
+    position: absolute;
+    top: 195px;
+    left: 750px;
+}
+
+.btn11{
+    border: solid 2px #91f2f29d;
+    position: absolute;
+    top: 195px;
+    left: 680px;
+}
+.p3{
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.box4{
+    border: solid 2px #91f2f29d;
+    border-radius: 10px;
+    margin-top: 20px;
+    background:linear-gradient(to top, #048ABF , #023373 );
+}
+
+.boxg{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+
+.btn2{
+    margin-top: 10px;
+    border: solid 4px #91f2f29d;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.inp1{
+    border: solid 4px #91f2f29d;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    color: #000;
+    
+}
+
+.boxg1{
+    border: solid 2px #91f2f29d;
+    border-radius: 10px;
+    margin-top: 20px;
+    background:linear-gradient(to top, #048ABF , #023373 );
+}
+
+.boxh{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.p5{
+    border: solid 2px #91f2f29d;
+    border-radius: 10px;
+}
+
+.boxg2{
+    border: solid 2px #91f2f29d;
+    border-radius: 10px;
+    background:linear-gradient(to top, #048ABF , #023373 );
+}
+
+.boxi{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.btn3{
+    margin-top: 10px;
+    border: solid 4px #91f2f29d;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.box5{
+    border: solid 2px #91f2f29d;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: url(https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1165&q=80);
+}
+
+H2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bolder;
+    color: white;
+}
+.box5a{
+    background: #8AADDB;
+    box-shadow: 0 15px 50px black;
+    border-radius: 10px;
+    width: 600px;
+    padding: 30px;
+    margin-top: 80px;
+    margin-left: 40px;
+
+}
+
+.c5a{    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #000;
+    background: url(https://i.ytimg.com/vi/dbj6ZuiDd2w/maxresdefault.jpg);
+    background-size: cover;
+    background-position: -85px 0;    
+    margin: 0px 25px 25px 0px;
+    float: left;
+    shape-outside: circle();
+}
+
+.p5a{
+    font-size: 22px;
+    color: white;
+}
+
+.box5b{
+    background: #8AADDB;
+    box-shadow: 0 15px 50px black;
+    border-radius: 10px;
+    width: 600px;
+    padding: 30px;
+    margin-top: -80px;
+    margin-left: 1000px;
+
+}
+
+.c5b{    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #000;
+    background: url(https://kriptokoin.com/wp-content/uploads/2021/10/fantom3.jpg);
+    background-size: cover;
+    background-position: -85px 0;    
+    margin: 0px 25px 25px 0px;
+    float: left;
+    shape-outside: circle();
+}
+
+.p5b{
+    font-size: 22px;
+    color: white;
+}
+
+.box5c{
+    background: #8AADDB;
+    box-shadow: 0 15px 50px black;
+    border-radius: 10px;
+    width: 600px;
+    padding: 30px;
+    margin-top: -80px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+}
+
+.c5c{    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #000;
+    background: url(https://insidebitcoins.com/wp-content/uploads/2022/05/Fantom-Crypto-price-prediction-e1652886370160.png);
+    background-size: cover;
+    background-position: -85px 0;    
+    margin: 0px 25px 25px 0px;
+    float: left;
+    shape-outside: circle();
+}
+
+.p5c{
+    font-size: 22px;
+    color: white;
+}
+
+.box6{
+    border: solid 2px #91f2f29d;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: url(https://images.unsplash.com/photo-1508345228704-935cc84bf5e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+}
+
+h3{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p6a{
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    text-align: center;
+    margin-left: 650px;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.466);
+    padding: 20px;
 }
